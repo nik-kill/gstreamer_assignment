@@ -1,0 +1,12 @@
+﻿  Source.cpp
+Source.obj : error LNK2019: unresolved external symbol __imp__gst_object_unref referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__gst_mini_object_unref referenced in function _gst_message_unref
+Source.obj : error LNK2019: unresolved external symbol __imp__gst_bus_timed_pop_filtered referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__gst_element_get_bus referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__gst_element_set_state referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__gst_parse_launch referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__gst_init referenced in function _main
+C:\gstreamer\1.0\msvc_x86_64\lib\gobject-2.0.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\gstreamer\1.0\msvc_x86_64\lib\gstreamer-1.0.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\nikhi\Desktop\Assignment\3\pipeline\Debug\pipeline.exe : fatal error LNK1120: 7 unresolved externals

@@ -1,0 +1,3 @@
+﻿  Source.c
+C:\Users\nikhi\Desktop\Assignment\3\pipeline\Source.c(5,14): warning C4101: 'caps': unreferenced local variable
+  pipeline.vcxproj -> C:\Users\nikhi\Desktop\Assignment\3\pipeline\x64\Debug\pipeline.exe

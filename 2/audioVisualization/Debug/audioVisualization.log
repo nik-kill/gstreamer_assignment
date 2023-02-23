@@ -1,0 +1,25 @@
+﻿  audioVis.c
+audioVis.obj : error LNK2019: unresolved external symbol _g_print referenced in function _main
+audioVis.obj : error LNK2019: unresolved external symbol _g_strrstr referenced in function _filter_vis_features
+audioVis.obj : error LNK2019: unresolved external symbol _g_str_has_prefix referenced in function _main
+audioVis.obj : error LNK2019: unresolved external symbol _g_type_check_instance_cast referenced in function _filter_vis_features
+audioVis.obj : error LNK2019: unresolved external symbol _g_type_check_instance_is_a referenced in function _filter_vis_features
+audioVis.obj : error LNK2019: unresolved external symbol _g_object_set referenced in function _main
+audioVis.obj : error LNK2019: unresolved external symbol _g_object_get referenced in function _main
+audioVis.obj : error LNK2019: unresolved external symbol __imp__gst_object_unref referenced in function _main
+audioVis.obj : error LNK2019: unresolved external symbol __imp__gst_mini_object_unref referenced in function _gst_message_unref
+audioVis.obj : error LNK2019: unresolved external symbol __imp__gst_bus_timed_pop_filtered referenced in function _main
+audioVis.obj : error LNK2019: unresolved external symbol __imp__gst_plugin_feature_list_free referenced in function _main
+audioVis.obj : error LNK2019: unresolved external symbol __imp__gst_element_factory_get_type referenced in function _filter_vis_features
+audioVis.obj : error LNK2019: unresolved external symbol __imp__gst_element_factory_get_metadata referenced in function _filter_vis_features
+audioVis.obj : error LNK2019: unresolved external symbol __imp__gst_element_factory_create referenced in function _main
+audioVis.obj : error LNK2019: unresolved external symbol __imp__gst_element_get_bus referenced in function _main
+audioVis.obj : error LNK2019: unresolved external symbol __imp__gst_element_set_state referenced in function _main
+audioVis.obj : error LNK2019: unresolved external symbol __imp__gst_registry_get referenced in function _main
+audioVis.obj : error LNK2019: unresolved external symbol __imp__gst_registry_feature_filter referenced in function _main
+audioVis.obj : error LNK2019: unresolved external symbol __imp__gst_parse_launch referenced in function _main
+audioVis.obj : error LNK2019: unresolved external symbol __imp__gst_init referenced in function _main
+C:\gstreamer\1.0\msvc_x86_64\lib\gobject-2.0.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\gstreamer\1.0\msvc_x86_64\lib\glib-2.0.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\gstreamer\1.0\msvc_x86_64\lib\gstreamer-1.0.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\nikhi\Desktop\Assignment\2\audioVisualization\Debug\audioVisualization.exe : fatal error LNK1120: 20 unresolved externals
